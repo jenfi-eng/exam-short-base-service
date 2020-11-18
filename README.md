@@ -4,29 +4,34 @@ This test is to read a piece of code and display an understanding of it through 
 
 ## Description
 
-The code we're looking at is `app/services/base_service.rb`. 
+The code we're looking at is `app/services/base_service.rb`.
 
-In Jenfi, Service Objects hold all the key business logic and this file... well I'm hoping you can tell me.
+In Jenfi, Service Objects hold all the key business logic and this file underpins it all. We're hoping you can tell us how this works.
 
+## Supporting Materials
+
+- `Account` & `Company` ActiveRecord objects are available.
+- Rspec, FactoryBot, Faker
 # Test Instruction
 
-1. Read the code
-1. Run the [Startup Instructions](#instructions)
-1. Write some basic specs
+1. Read the code.
+1. Run the [Startup Instructions](#instructions).
+1. Write specs to show understanding.
     - Add specs to `specs/services/base_service_spec.rb`.
 1. Writeup of quick/dirty thoughts in the [Your Thoughts](#thoughts) section.
     - Bullet points
     - You can tell me this code sucks, but you have to tell me why.
-1. Zip up the directory, email it to Justin, justin@jenfi.com.
-1. Issues? Justin's Whatsapp: +65-9827-8750
+1. When you're finished - zip up the directory, email it.
+1. Issues? Reach out!
 
 ## What NOT to do
 
-- Don't modify/improve the base_service.rb (just write up your thoughts)
-- Don't only write specs. Leave time for writing your thoughts.
-- Don't get stuck, it's more important to write & create specs for what you understand
-    - This thing is like an onion
-    - Each layer gets more difficult to reason about
+- Don't modify/improve anything other than the spec.
+    - If you have improvements, write them below.
+- Don't only write specs. Leave time for your thoughts.
+- Don't get stuck, it's more important to write & create specs for what you understand.
+    - This thing is like an onion.
+    - Each layer gets more difficult to reason about.
 - Don't spend more than 2 hours on this.
 # Some Questions to Guide
 
@@ -36,6 +41,8 @@ In Jenfi, Service Objects hold all the key business logic and this file... well 
 1. ...
 
 # Startup Instructions<a name="instructions"></a>
+
+No requirement to use docker - just be able to run `rspec .`
 
 1. Install Docker
 1. run `docker-compose up --build --remove-orphans`
