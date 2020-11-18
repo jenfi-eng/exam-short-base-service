@@ -18,6 +18,7 @@ In Jenfi, Service Objects hold all the key business logic and this file... well 
     - Bullet points
     - You can tell me this code sucks, but you have to tell me why.
 1. Zip up the directory, email it to Justin, justin@jenfi.com.
+1. Issues? Justin's Whatsapp: +65-9827-8750
 
 ## What NOT to do
 
