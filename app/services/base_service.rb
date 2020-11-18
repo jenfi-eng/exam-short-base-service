@@ -89,9 +89,9 @@ module BaseService
     if params.present?
       params.each { |k, v| @context[k] = v }
 
-      T.unsafe(self).call(params)
+      self.call(params)
     else
-      T.unsafe(self).call
+      self.call
     end
 
     context_collect_ar_object_errors

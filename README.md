@@ -14,7 +14,7 @@ In Jenfi, Service Objects hold all the key business logic and this file... well 
 1. Run the [Startup Instructions](#instructions)
 1. Write some basic specs
     - Add specs to `specs/services/base_service_spec.rb`.
-1. Quick/dirty writeup of thoughts in the [Your Thoughts](#thoughts) section.
+1. Writeup of quick/dirty thoughts in the [Your Thoughts](#thoughts) section.
     - Bullet points
     - You can tell me this code sucks, but you have to tell me why.
 1. Zip up the directory, email it to Justin, justin@jenfi.com.
@@ -39,7 +39,11 @@ In Jenfi, Service Objects hold all the key business logic and this file... well 
 1. Install Docker
 1. run `docker-compose up --build --remove-orphans`
 1. run `docker exec -it exam-short-base-service_app_1 /bin/bash`
-1. run `bundle exec rails db:create`
-1. run `bundle exec rspec .`
+1. run `rails db:create && rails db:migrate`
+1. run `rspec .`
 
 # Your Thoughts <a name="thoughts"></a>
+
+- 
+- 
+- 
