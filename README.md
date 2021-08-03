@@ -12,12 +12,14 @@ In Jenfi, Service Objects hold all the key business logic and this file underpin
 
 - `Account` & `Company` ActiveRecord objects are available.
 - Rspec, FactoryBot, Faker
+
 # Test Instruction
 
 1. Read the code.
 1. Run the [Startup Instructions](#instructions).
 1. Write specs to show understanding.
     - Add specs to `specs/services/base_service_spec.rb`.
+    - **Hint**: One spec should cover successfully creating a `Company` w/ an `Account`.
 1. Writeup of quick/dirty thoughts in the [Your Thoughts](#thoughts) section.
     - Bullet points
     - You can tell me this code sucks, but you have to tell me why.
@@ -33,6 +35,7 @@ In Jenfi, Service Objects hold all the key business logic and this file underpin
     - This thing is like an onion.
     - Each layer gets more difficult to reason about.
 - Don't spend more than 2 hours on this.
+
 # Some Questions to Guide
 
 1. What is the entry point?
