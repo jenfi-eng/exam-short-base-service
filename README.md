@@ -42,7 +42,7 @@ In Jenfi, Service Objects hold all the key business logic and this file underpin
 
 # Startup Instructions<a name="instructions"></a>
 
-No requirement to use docker - just be able to run `rspec .`
+**Not required** to use docker - just be able to run `rspec .`
 
 1. Install Docker
 1. run `docker-compose up --build --remove-orphans`

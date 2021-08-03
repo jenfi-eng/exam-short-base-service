@@ -1,7 +1,7 @@
-FROM ruby:2.7.2
+FROM ruby:3.0.1
 
-RUN apt-get update && apt-get install curl
-RUN apt-get update && apt-get install -y \
+RUN apt-get update -y && apt-get install -y \
+    curl \
     less
 
 # Add a script to be executed every time the container starts.
