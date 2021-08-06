@@ -89,7 +89,7 @@ module BaseService
     if params.present?
       params.each { |k, v| @context[k] = v }
 
-      self.call(params)
+      self.call(**params)
     else
       self.call
     end
