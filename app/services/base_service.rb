@@ -99,6 +99,10 @@ module BaseService
     self
   end
 
+  def call(*params)
+    raise NotImplementedError
+  end
+
   private
 
   def ensure_failure_rollup(error)
