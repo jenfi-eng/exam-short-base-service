@@ -39,10 +39,11 @@ In Jenfi, Service Objects hold all the key business logic and this file underpin
 # Some Questions to Guide
 
 1. What is the entry point/How is this called?
-1. What can the BaseService do?
-1. Why does the BaseService exist?
-1. When is something like the BaseService used?
-1. ...
+2. Tell me about the interface.
+3. What can the BaseService do?
+4. Why does the BaseService exist?
+5. When is something like the BaseService used?
+6. ...
 
 # Startup Instructions<a name="instructions"></a>
 
